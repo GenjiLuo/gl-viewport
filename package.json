@@ -1,0 +1,33 @@
+{
+  "name": "gl-viewport",
+  "version": "1.0.0",
+  "description": "toggle between orthographic and perspective projection camera views",
+  "main": "index.js",
+  "dependencies": {
+    "gl-matrix": "^2.1.0"
+  },
+  "devDependencies": {
+    "bunny": "^1.0.1",
+    "ecstatic": "^0.5.1",
+    "mesh-viewer": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/gl-viewport.git"
+  },
+  "homepage": "https://github.com/substack/gl-viewport",
+  "keywords": [
+    "webgl",
+    "camera",
+    "ortho",
+    "perspective",
+    "orthographic",
+    "projection"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
