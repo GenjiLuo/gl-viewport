@@ -22,8 +22,9 @@ Viewport.prototype.draw = function (m, opts) {
     if (!opts.projection) {
         if (this.viewMode === 'ortho') {
             var d = this.shell.camera.distance;
+            var ar = this.shell.width / this.shell.height;
             mat4.ortho(
-                this.projection, -d, d, -d, d,
+                this.projection, -d, d, -d / ar, d / ar,
                 this.shell.zNear, this.shell.zFar
             );
         }
