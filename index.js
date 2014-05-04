@@ -13,8 +13,8 @@ function Viewport (shell, opts) {
     var scratch0 = new Float32Array(16);
     var scratch1 = new Float32Array(16);
     
-    self.projection = mat4.create();
-    self.view = mat4.create();
+    self.projection = opts.projection || mat4.create();
+    self.view = opts.view || mat4.create();
 }
 
 Viewport.prototype.draw = function (m, opts) {
