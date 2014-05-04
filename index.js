@@ -1,5 +1,5 @@
 var glm = require('gl-matrix');
-var mat4 = glm.mat4, quat = glm.quat, vec3 = glm.vec3;
+var mat4 = glm.mat4;
 
 module.exports = Viewport;
 
