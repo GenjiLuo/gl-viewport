@@ -47,15 +47,7 @@ Viewport.prototype.draw = function (m, opts) {
 };
 
 Viewport.prototype.setViewMode = function (name) {
-    if (name === 'perspective') {
-        this.projection = mat4.create();
-        this.view = this.shell.camera.view();
-    }
-    else if (name === 'ortho') {
-        this.projection = mat4.create();
-        this.view = mat4.create();
-    }
-    else {
+    if (name !== 'perspective' && name !== 'ortho') {
         throw new Error('view mode not recognized: ' + name);
     }
     this.viewMode = name;
