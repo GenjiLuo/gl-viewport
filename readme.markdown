@@ -39,6 +39,8 @@ Create a viewport instance `vport` from a
 Set the view mode with `opts.viewMode`. Either `'perspective'` or `'ortho'`.
 Default: `'ortho'`.
 
+You can also set the initial `opts.view` and `opts.projection` matricies.
+
 ## vport.setViewMode(mode)
 
 Change the view `mode`: `'ortho'` and `'perspective'` are supported.
