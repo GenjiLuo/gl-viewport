@@ -31,7 +31,7 @@ Viewport.prototype.draw = function (m, opts) {
         else if (this.viewMode === 'perspective') {
             mat4.perspective(
                 this.projection,
-                Math.PI / 4.0,
+                this.shell.fov,
                 this.shell.width / this.shell.height,
                 this.shell.zNear,
                 this.shell.zFar
