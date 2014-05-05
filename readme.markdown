@@ -27,6 +27,8 @@ shell.on('gl-render', function () {
 });
 ```
 
+Run this demo on [requirebin](http://requirebin.com/?gist=11529820).
+
 # methods
 
 ``` js
