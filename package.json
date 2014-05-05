@@ -1,6 +1,6 @@
 {
   "name": "gl-viewport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "toggle between orthographic and perspective projection camera views",
   "main": "index.js",
   "dependencies": {
